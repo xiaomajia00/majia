@@ -1,0 +1,4 @@
+替换背景图片（1280*720像素）：TVBoxOSC/app/src/main/res/drawable/app_bg.png
+TVBoxOSC/app/src/main/java/com/github/tvbox/osc/api/ApiConfig.java 找到82行String apiUrl = Hawk.get(HawkConfig.API_URL, "");，接口地址在""中添加
+替换直播频道选择颜色：MT管理器resources.arsc—Arsc编辑器—com.github.tvbox.osc—7F05 color—color—0037选择修改替换首页推荐影片：TVBoxOSC/app/src/main/java/com/github/tvbox/osc/ui/fragment/UserFragment.java 找到120行OkGo.<String>get("https://movie.douban.com/j/new_search_subjects?sort=R&range=0,10&tags=&playable=1&start=0")，替换https地址替换APP名称：TVBoxOSC/app/src/main/res/values/strings.xml 找到第2行<string name="app_name">TVBox</string>替换TVBox
+TVbox修改app在GitHub
